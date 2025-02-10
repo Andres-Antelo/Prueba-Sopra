@@ -15,7 +15,7 @@ public class ClasificacionPersonas {
         int femeninasMenores = 0;
         int totalMujeres = 0;
         
-        LEERPERSONAS(PERSONAS); //carga las 50 personas en la variable PERSONAS
+        PERSONAS[] = LEERPERSONAS(); //carga las 50 personas en la variable PERSONAS
         
         for (int i = 0; i < totalPersonas; i++) {
             if (PERSONAS[i].EDAD >= 18) {
